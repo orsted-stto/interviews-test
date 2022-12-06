@@ -14,6 +14,7 @@ This repository contains two pickle files, `features.pkl` and `target.pkl`.
 represent the forecasted production from three forecast vendors for a portfolio of Ørsted windfarms. 
 The units are MWh for the 30-minute window given by the index.
 `target.pkl` contains the actual production from the portfolio for the same time range.
+Both pickles contain pandas dataframes. The pandas version used for creation is specified in the requirements file.
 
 #### The task
 Your task is to create a Python class with an `sklearn`-style API (at least `fit`, `predict`, and 
